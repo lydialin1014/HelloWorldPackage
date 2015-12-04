@@ -1,0 +1,16 @@
+{
+    "name": "lydia/helloworld",
+    "description": "helloworld",
+    "authors": [
+        {
+            "name": "Lydia",
+            "email": "lydia@bamboocat.com"
+        }
+    ],
+    "require": {},
+     "autoload": {
+        "psr-4": {
+            "Lydia\\HelloWorld\\": "src/app"
+        }
+    }
+}
